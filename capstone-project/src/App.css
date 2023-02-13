@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav.Nav{
+  height: 100px;
+}
+
+.List{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+.Logo{
+  height: 20%;
+  width: auto;
 }
